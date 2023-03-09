@@ -1,0 +1,37 @@
+1)  *=key
+
+Students(*id:int, name:string)
+
+Courses (*number:int, title:string)
+
+Enrolment (*student_id:int, course_num:int)
+
+2) 
+
+Buildings (*name:string, address:string)
+
+Rooms (building_number:int, building_floor:int, number:int)
+
+3)
+
+Candidates (*ssn:int, name:string)
+
+JobPositions (*number:int, title:string, department:string)
+
+Application (ssn:int, JobPositions_number:int)
+
+4)
+
+Employees (*ssn:int, name:string)
+
+Projects (*number:int, title:string)
+
+Employees_Projects (ssn:int, project_num:int, hour:int)
+
+5)
+
+Shippings (*order_number:int, address:string)
+
+Items (order_number:int, seq_number:int, description:string)
+
+

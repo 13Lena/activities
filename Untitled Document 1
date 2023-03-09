@@ -1,0 +1,20 @@
+Employees |X| WorkingHours
+	E.id = W.sup.id
+	W.data = Sept 15, 2021
+	and E
+	
+Employees |X| WokingHours
+	E.id = W.EMP_id and 
+	w.data-month = 'september' and
+	W.sup_id = NULL 
+	
+Selection Supervisors'
+	salery > 65,000 
+	
+Employees |> Supervisor
+	sup_id is NULL
+Employees
+	wage not= NUll
+	sup_id = NULL
+	
+
